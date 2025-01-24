@@ -8,7 +8,6 @@ import {FeedbacksProvider} from "/src/providers/FeedbacksProvider"
 import {WindowProvider} from "/src/providers/WindowProvider"
 import App from "/src/components/App.jsx"
 import Preloader from "/src/components/Preloader.jsx"
-import PrivacyPolicy from "/src/components/policy/PrivacyPolicy.jsx"
 
 const AppProviders = ({ children }) => (
     <DataProvider>
@@ -28,27 +27,18 @@ const AppProviders = ({ children }) => (
 
 let container = null
 
-document.addEventListener("DOMContentLoaded", function () {
-    if (container) return;
+document.addEventListener('DOMContentLoaded', function(event) {
+    if(container)
+        return
 
-    container = document.getElementById("root");
-
-    // Check the current path
-    const isPrivacyPolicy = window.location.pathname === "/privacy-policy";
-
-    createRoot(container).render(
+    container = document.getElementById('root')
+    createRoot(document.getElementById('root')).render(
         <StrictMode>
-            {isPrivacyPolicy ? (
-                // Render only PrivacyPolicy for /privacy-policy
-                <PrivacyPolicy />
-            ) : (
-                // Render the default app structure for other paths
-                <Preloader>
-                    <AppProviders>
-                        <App />
-                    </AppProviders>
-                </Preloader>
-            )}
+            <Preloader>
+                <AppProviders>
+                    <App/>
+                </AppProviders>
+            </Preloader>
         </StrictMode>
-    );
-});
+    )
+})

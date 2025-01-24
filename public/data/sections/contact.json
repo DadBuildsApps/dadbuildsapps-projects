@@ -1,0 +1,84 @@
+{
+    "locales": {
+        "en": {
+            "title": "Contact",
+            "title_long_prefix": "Don't hesitate to",
+            "title_long": "**Contact** Me"
+        },
+        "jp": {
+            "title": "連絡",
+            "title_long_prefix": "お気軽に",
+            "title_long": "**連絡**してください！"
+        }
+    },
+    "articles": [
+        {
+            "id": "contact_form",
+            "component": "ArticleContactForm",
+            "config": {},
+            "locales": {
+                "en": {"title": "Send me a **message**"},
+                "jp": {"title": "**メッセージ**"}
+            },
+            "items": null
+        },
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Or if you **prefer**..."},
+                "jp": {"title": "その他の**連絡手段**もあります"}
+            },
+            "items": [
+                {
+                    "value": "hello@dadbuildsapps.com",
+                    "links": [
+                        {"href": "mailto:hello@dadbuildsapps.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "E-mail"},
+                        "jp": {"title": "Eメール"}
+                    }
+                },
+                {
+                    "value": "@DadBuildsApps",
+                    "links": [
+                        {"href": "https://instagram.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-instagram",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "Instagram"},
+                        "jp": {"title": "インスタグラム"}
+                    }
+                },
+                {
+                    "value": "@DadBuildsApps",
+                    "links": [
+                        {"href": "https://tiktok.com"}
+                    ],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-x-twitter",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {"title": "X"},
+                        "jp": {"title": "X（旧Twitter）"}
+                    }
+                }
+            ]
+        }
+    ]
+}

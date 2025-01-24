@@ -1,0 +1,217 @@
+{
+    "locales": {
+        "en": {
+            "title": "Awards",
+            "title_menu": "Achievements",
+            "title_long_prefix": "Here are my",
+            "title_long": "Career **Achievements**"
+        },
+
+        "jp": {
+            "title": "Logros",
+            "title_menu": "Logros",
+            "title_long_prefix": "Aquí están mis",
+            "title_long": "**Logros** Profesionales"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "certifications",
+            "component": "ArticleCards",
+            "config": {},
+            "locales": {
+                "en": { "title": "Certifications" },
+                "jp": { "title": "Certificaciones" }
+            },
+
+            "items": [
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-life-ring",
+                        "faColors": {"bg": "#326CE5", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "12/01/2020",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.linuxfoundation.org/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "The **Linux Foundation**",
+                            "text": "Certified Kubernetes Administrator (CKA)"
+                        },
+                        "jp": {
+                            "text": "Administrador Kubernetes Certificado (CKA)"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-aws",
+                        "faColors": {"bg": "#FFD700", "fill": "#111"}
+                    },
+                    "dates": {
+                        "start": "05/05/2021",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.aws.com/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Amazon** Web Services",
+                            "text": "AWS Certified Solutions Architect – Associate"
+                        },
+                        "jp": {
+                            "text": "Arquitecto de Soluciones Certificado de AWS – Asociado"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-java",
+                        "faColors": {"bg": "#007396", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "05/05/2022",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.oracle.com/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Oracle**",
+                            "text": "Certified Java Developer"
+                        },
+                        "jp": {
+                            "text": "Desarrollador Java Certificado"
+                        }
+                    }
+                },
+                {
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-database",
+                        "faColors": {"bg": "#47A248", "fill": "#EEE"}
+                    },
+                    "dates": {
+                        "start": "08/15/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "see_certification", "href": "https://www.mongodb.com/" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**MongoDB** University",
+                            "text": "MongoDB Certified Developer"
+                        },
+                        "jp": {
+                            "text": "Desarrollador Certificado en MongoDB"
+                        }
+                    }
+                }
+            ]
+        },
+
+        {
+            "id": "awards",
+            "component": "ArticleThread",
+            "config": {},
+            "locales": {
+                "en": { "title": "Awards" },
+                "jp": { "title": "Premios" }
+            },
+
+            "items": [
+                {
+                    "dates": {
+                        "start": "09/01/2019",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**Best Final Year Project** – Backend Optimization",
+                            "info": "MIT",
+                            "text": "Recognized for innovative work on optimizing backend systems for cloud environments, achieving significant performance improvements."
+                        },
+                        "jp": {
+                            "title": "**Mejor Proyecto de Fin de Carrera** – Optimización de Backend",
+                            "info": "MIT",
+                            "text": "Reconocido por su trabajo innovador en la optimización de sistemas backend para entornos en la nube, logrando importantes mejoras en el rendimiento."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "05/01/2020",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "more_info", "href": "https://github.com/torvalds/linux" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Top Contributor** – Open Source Backend Project",
+                            "info": "GitHub",
+                            "text": "Awarded for contributing to an open-source backend framework that improved scalability and reduced latency."
+                        },
+                        "jp": {
+                            "title": "**Contribuidor Destacado** – Proyecto de Backend de Código Abierto",
+                            "info": "GitHub",
+                            "text": "Premiado por su contribución a un framework de backend de código abierto que mejoró la escalabilidad y redujo la latencia."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "11/01/2021",
+                        "end": null
+                    },
+                    "links": [],
+                    "locales": {
+                        "en": {
+                            "title": "**1st Place** – Global API Design Challenge",
+                            "info": "API Developer Conference",
+                            "text": "Secured 1st place for developing a robust API with advanced features like real-time data processing and seamless integration."
+                        },
+                        "jp": {
+                            "title": "**1er Lugar** – Desafío Global de Diseño de API",
+                            "info": "Conferencia de Desarrolladores de API",
+                            "text": "Obtuvo el 1er lugar por desarrollar una API robusta con funciones avanzadas como procesamiento de datos en tiempo real e integración sin problemas."
+                        }
+                    }
+                },
+                {
+                    "dates": {
+                        "start": "06/01/2023",
+                        "end": null
+                    },
+                    "links": [
+                        { "string": "more_info", "href": "https://google.com" }
+                    ],
+                    "locales": {
+                        "en": {
+                            "title": "**Best Backend Architecture** – Tech Innovator Awards",
+                            "info": "Tech Innovator Magazine",
+                            "text": "Recognized for designing an efficient and scalable backend architecture that improved system performance and reliability."
+                        },
+                        "jp": {
+                            "title": "**Mejor Arquitectura de Backend** – Premios a los Innovadores Tecnológicos",
+                            "info": "Revista Tech Innovator",
+                            "text": "Reconocido por diseñar una arquitectura de backend eficiente y escalable que mejoró el rendimiento y la confiabilidad del sistema."
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,147 @@
+{
+    "locales": {
+        "en": {
+            "title": "Welcome!",
+            "title_menu": "About me",
+            "title_long_prefix": "Hello...",
+            "title_long": "I'm **DadBuildsApps!**"
+        },
+        "jp": {
+            "title": "ようこそ！",
+            "title_menu": "私について",
+            "title_long_prefix": "こんにちは...",
+            "title_long": "私は **DadBuildsApps** です！"
+        }
+    },
+    "articles": [
+        {
+            "id": "contact_list",
+            "component": "ArticleGrid",
+            "config": {
+                "ignorePaddingTop": true,
+                "format": "inline"
+            },
+            "locales": {
+                "en": {"title": "Contact Details"},
+                "jp": {"title": "連絡先"}
+            },
+            "items": [
+                {
+                    "value": "Calgary – Canada",
+                    "links": [{"href": null}],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-city",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "hello@dadbuildsapps.com",
+                    "links": [{"href": "mailto:hello@dadbuildsapps.com"}],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-solid fa-envelope",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                },
+                {
+                    "value": "@DadBuildsApps",
+                    "links": [{"href": "https://github.com/DadBuildsApps"}],
+                    "icon": {
+                        "img": null,
+                        "fa": "fa-brands fa-github",
+                        "faColors": {"bg": null, "fill": null}
+                    }
+                }
+            ]
+        },
+        {
+            "id": "short_description",
+            "component": "ArticleInfoBlock",
+            "config": {},
+            "locales": {
+                "en": {"title": "**A little bit** about me..."},
+                "jp": {"title": "**少しだけ** 私について..."}
+            },
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/aboutme.png",
+                        "fa": null,
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "locales": {
+                        "en": {
+                            "text": "<p>I’m a **full stack developer** based in **Calgary** (originally from **Japan**!) and your friendly neighborhood indie dad developer.</p> <p>When I’m not at work, you’ll find me cracking dad jokes, working on **mobile apps** as a hobby, chasing **big ideas**, or connecting with amazing people like  you!</p> <p>If you’re curious about what I do—or just want to say hi—don’t hesitate to reach out. <b>**Let’s connect!**</b></p>"
+                        },
+                        "jp": {
+                            "text": "<p>私はカルガリーに住む**フルスタックデベロッパー**です<b></b>。また、お父さんをしながら隙間時間で**個人開発**もしています。</p><p>仕事以外では、親父ギャグを言ったり、趣味としてモバイルアプリを作ったり、様々な人々とつながるのが好きです。</p><p>私、または私の活動に興味がある方、**ぜひお気軽にご連絡ください！**</p>"
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "id": "interests",
+            "component": "ArticleGrid",
+            "config": {
+                "format": "grid"
+            },
+            "locales": {
+                "en": {"title": "Personal **interests**"},
+                "jp": {"title": "個人的な**関心**"}
+            },
+            "items": [
+                {
+                    "icon": {"img": null, "fa": "fa-solid fa-pencil-alt", "faColors": null},
+                    "value": null,
+                    "locales": {
+                        "en": {"title": "UX design", "info": "Studying user experience principles."},
+                        "jp": {"title": "UXデザイン", "info": "ユーザー体験の原則について学んでいます。"}
+                    }
+                },
+                {
+                    "icon": {"img": null, "fa": "fa-solid fa-dumbbell", "faColors": null},
+                    "value": null,
+                    "locales": {
+                        "en": {"title": "Working out", "info": "I love working out so much that I built my own home gym."},
+                        "jp": {"title": "ワークアウト", "info": "運動が大好きで、自宅にジムを作りました。"}
+                    }
+                },
+                {
+                    "icon": {"img": null, "fa": "fa-solid fa-golf-ball-tee", "faColors": null},
+                    "value": null,
+                    "locales": {
+                        "en": {"title": "Golf", "info": "I’m not really good at it, but I love it."},
+                        "jp": {"title": "ゴルフ", "info": "あまり上手ではありませんが、大好きです。"}
+                    }
+                },
+                {
+                    "icon": {"img": null, "fa": "fa-solid fa-beer-mug-empty", "faColors": null},
+                    "value": null,
+                    "locales": {
+                        "en": {"title": "Exploring breweries", "info": "Visiting local breweries and discovering my favorite local beers."},
+                        "jp": {"title": "ブルワリー巡り", "info": "地元のブルワリーを訪れて、お気に入りのビールを見つけるのが楽しみです。"}
+                    }
+                },
+                {
+                    "icon": {"img": null, "fa": "fa-solid fa-futbol", "faColors": null},
+                    "value": null,
+                    "locales": {
+                        "en": {"title": "Soccer", "info": "My dream is to play soccer with my son."},
+                        "jp": {"title": "サッカー", "info": "息子と一緒にサッカーをするのが夢です。"}
+                    }
+                },
+                {
+                    "icon": {"img": null, "fa": "fa-solid fa-people-arrows", "faColors": null},
+                    "value": null,
+                    "locales": {
+                        "en": {"title": "Connecting with People", "info": "Building meaningful relationships and collaborations."},
+                        "jp": {"title": "人とのつながり", "info": "有意義な関係や協力を築くことを大切にしています。"}
+                    }
+                }
+            ]
+        }
+        
+    ]
+}
