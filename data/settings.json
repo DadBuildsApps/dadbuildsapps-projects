@@ -1,0 +1,68 @@
+{
+    "version": "1.0.0",
+    "animatedCursorEnabled": true,
+    "fullScreenButtonEnabled": true,
+
+    "preloader": {
+        "enabled": true,
+        "title": "DadBuildsApps",
+        "subtitle": null
+    },
+
+    "profile": {
+        "name": "DadBuildsApps",
+        "stylizedName": "<strong>**DadBuildsApps**</strong>",
+        "logoUrl": "images/svg/logo.svg",
+        "profilePictureUrl": "images/pictures/profile.png",
+
+        "locales": {
+            "en": {"role": "Full Stack/Mobile Developer"},
+            "jp": {"role": "Desarrollador Web"}
+        }
+    },
+
+    "status": {
+        "visible": true,
+        "available": true,
+
+        "locales": {
+            "en": {"message": "Let's connect!"},
+            "jp": {"message": "¡Disponible para freelance!"}
+        }
+    },
+
+    "supportedThemes": [
+        {
+            "id": "dark",
+            "default": true,
+            "icon": "fa-solid fa-moon"
+        },
+
+        {
+            "id": "light",
+            "default": false,
+            "icon": "fa-solid fa-sun"
+        }
+    ],
+
+    "supportedLanguages": [
+        {
+            "name": "English",
+            "id": "en",
+            "flagUrl": "images/flags/ca.png",
+            "default": true
+        },
+
+        {
+            "name": "日本語",
+            "id": "jp",
+            "flagUrl": "images/flags/ja.png"
+        }
+    ],
+
+    "emailjs": {
+        "publicKey": "PzWqyqmuvW5uAgLVS",
+        "serviceId": "service_bmejytc",
+        "templateId": "template_kzcr9wk"
+    }
+}

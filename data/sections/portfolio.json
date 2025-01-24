@@ -1,0 +1,144 @@
+{
+    "locales": {
+        "en": {
+            "title": "Projects",
+            "title_long_prefix": "Take a look at",
+            "title_long": "My **Projects**"
+        },
+        "jp": {
+            "title": "プロジェクト",
+            "title_long_prefix": "こちらが",
+            "title_long": "私の**プロジェクト**です"
+        }
+    },
+    "articles": [
+        {
+            "id": "My Projects",
+            "component": "ArticlePortfolio",
+            "config": {},
+            "locales": {},
+            "categories": [
+                {
+                    "id": "apps",
+                    "locales": {
+                        "en": {"singular": "Mobile", "plural": "Mobile"},
+                        "jp": {"singular": "モバイル", "plural": "モバイル"}
+                    }
+                },
+                {
+                    "id": "websites",
+                    "locales": {
+                        "en": {"singular": "Website", "plural": "Web"},
+                        "jp": {"singular": "ウェブサイト", "plural": "ウェブ"}
+                    }
+                },
+                {
+                    "id": "others",
+                    "locales": {
+                        "en": {"singular": "Other", "plural": "Others"},
+                        "jp": {"singular": "その他", "plural": "その他"}
+                    }
+                }
+            ],
+            "items": [
+                {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/productivity-icon.webp",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://apple.com"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                    ],
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": "9:16",
+                            "images": [
+                                "images/pictures/productivity1.PNG",
+                                "images/pictures/productivity2.PNG",
+                                "images/pictures/productivity3.PNG",
+                                "images/pictures/productivity4.PNG",
+                                "images/pictures/productivity5.PNG",
+                                "images/pictures/productivity6.PNG",
+                                "images/pictures/productivity7.PNG"
+                            ]
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "All-In-One Productivity Manager",
+                            "text": "A versatile productivity app built with <b>Flutter</b>, designed to help you stay organized, manage your tasks, and improve focus. It offers a clean, intuitive interface with tools for <b>time management</b>, <b>task tracking</b>, and <b>focus improvement</b>.",
+                            "tags": ["Flutter", "Productivity", "Task Management"]
+                        },
+                        "jp": {
+                            "title": "All-In-One Productivity Manager",
+                            "text": "<b>Flutter</b>で構築された多機能な生産性向上アプリです。タスク管理、時間管理、そして集中力向上をサポートします。使いやすい直感的なインターフェースで、効率的に作業を進めるためのツールを提供します。",
+                            "tags": ["Flutter", "生産性", "タスク管理"]
+                        }
+                    }
+                    
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/rocksandgems.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://kelownarocksandgems.ca/"}
+                    ],
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Kelowna Rocks & Gems",
+                            "text": "An e-commerce website designed to support a local small business.",
+                            "tags": ["WordPress", "Design", "E-commerce"]
+                        },
+                        "jp": {
+                            "title": "Kelowna Rocks & Gems",
+                            "text": "地元の小規模ビジネスを支援するためにデザインされたEコマースウェブサイト。",
+                            "tags": ["WordPress", "デザイン", "Eコマース"]
+                        }
+                    }
+                },
+                {
+                    "categoryId": "websites",
+                    "icon": {
+                        "img": "images/pictures/flame.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "links": [
+                        {"faIcon": "fa-solid fa-link", "href": "https://st-flame.com/"}
+                    ],
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "Flame",
+                            "text": "A website created for a small business in Japan, featuring an integrated booking system for its core services.",
+                            "tags": ["WordPress", "Design", "Booking"]
+                        },
+                        "jp": {
+                            "title": "Flame",
+                            "text": "日本の小規模ビジネス向けに作成されたウェブサイトで、主要サービスである予約システムの構築をしました。",
+                            "tags": ["WordPress", "デザイン", "予約システム"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

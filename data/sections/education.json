@@ -1,0 +1,130 @@
+{
+    "locales": {
+        "en": {
+            "title": "Education",
+            "title_long_prefix": "This is my",
+            "title_long": "**Educational** Background"
+        },
+
+        "jp": {
+            "title": "Educación",
+            "title_long_prefix": "Esta es mi",
+            "title_long": "**Formación** Educativa"
+        }
+    },
+
+    "articles": [
+        {
+            "id": "academic",
+            "component": "ArticleTimeline",
+            "config": {},
+            "locales": {},
+
+            "items": [
+                {
+                    "icon": {
+                        "img": "images/pictures/place-5.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2015",
+                        "end": "12/01/2019"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Bachelor** in Computer Science",
+                            "info": "MIT",
+                            "text": "Earned a Bachelor's degree in Computer Science, focusing on algorithms, data structures, software engineering, and web development. Gained hands-on experience through various programming projects and boot camps.",
+                            "tags": []
+                        },
+                        "jp": {
+                            "title": "**Licenciatura** en Ciencias de la Computación",
+                            "info": "MIT",
+                            "text": "Obtuve una licenciatura en Ciencias de la Computación, con un enfoque en algoritmos, estructuras de datos, ingeniería de software y desarrollo web. Adquirí experiencia práctica a través de varios proyectos de programación y campamentos de entrenamiento.",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-2.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "01/01/2014",
+                        "end": "06/01/2014"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "PHP Development **Nanodegree**",
+                            "info": "Udacity",
+                            "text": "Completed an intensive Nanodegree program focused on PHP development, covering essential skills like backend programming, database management, and web application deployment. This course provided a solid foundation in modern PHP practices.",
+                            "tags": ["PHP 8+", "Laravel", "MongoDB"]
+                        },
+                        "jp": {
+                            "title": "Nanogrado en **Desarrollo PHP**",
+                            "info": "Udacity",
+                            "text": "Completé un programa intensivo de Nanogrado centrado en el desarrollo de PHP, cubriendo habilidades esenciales como la programación backend, la gestión de bases de datos y el despliegue de aplicaciones web. Este curso proporcionó una base sólida en las prácticas modernas de PHP.",
+                            "tags": null
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-6.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/01/2020",
+                        "end": "06/01/2022"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**Master's** in Artificial Intelligence",
+                            "info": "University of Paris",
+                            "text": "<p>Completed a comprehensive Master's program focused on cutting-edge AI topics, including:</p> <ul><li>Machine Learning</li><li>Natural Language Processing (NLP)</li><li>Neural Networks</li></ul> <p class='mt-3'>Applied research and theory to develop practical AI-driven solutions, combining academic excellence with real-world innovation.</p>",
+                            "tags": []
+                        },
+                        "jp": {
+                            "title": "**Máster** en Inteligencia Artificial",
+                            "info": "Universidad de París",
+                            "text": "<p>Completé un programa de máster integral centrado en temas de IA de vanguardia, incluyendo:</p> <ul><li>Aprendizaje Automático</li><li>Procesamiento del Lenguaje Natural (PLN)</li><li>Redes Neuronales</li></ul> <p class='mt-3'>Apliqué investigación y teoría para desarrollar soluciones prácticas impulsadas por IA, combinando la excelencia académica con la innovación en el mundo real.</p>",
+                            "tags": []
+                        }
+                    }
+                },
+
+                {
+                    "icon": {
+                        "img": "images/pictures/place-4.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "dates": {
+                        "start": "09/01/2022",
+                        "end": "06/01/2024"
+                    },
+                    "locales": {
+                        "en": {
+                            "title": "**PhD** in Computer Science",
+                            "info": "Harvard University",
+                            "text": "<p>Currently pursuing a PhD with a focus on deep learning and its real-world applications, particularly in:</p> <ul><li>Computer Vision</li><li>Innovative AI research</li><li>Developing novel algorithms for image recognition</li></ul> <p class='mt-3'>Engaged in cutting-edge research and contributing to AI advancement through publications in top-tier conferences.</p>",
+                            "tags": ["Deep Learning", "Computer Vision", "AI Research", "Algorithms"]
+                        },
+                        "jp": {
+                            "title": "**Doctorado** en Ciencias de la Computación",
+                            "info": "Universidad de Harvard",
+                            "text": "<p>Cursando un doctorado con enfoque en aprendizaje profundo y sus aplicaciones en el mundo real, específicamente en:</p> <ul><li>Visión por Computadora</li><li>Investigación innovadora en IA</li><li>Desarrollo de nuevos algoritmos para el reconocimiento de imágenes</li></ul> <p class='mt-3'>Involucrado en investigaciones de vanguardia y contribuyendo al avance de la IA a través de publicaciones en conferencias de primer nivel.</p>",
+                            "tags": ["Aprendizaje Profundo", "Visión por Computadora", "Investigación IA", "Algoritmos"]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}

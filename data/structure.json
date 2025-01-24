@@ -1,0 +1,61 @@
+{
+    "sections": [
+        {
+            "id": "about",
+            "categoryId": "home",
+            "jsonPath": "/data/sections/cover.json",
+            "faIcon": "fa-solid fa-address-card"
+        },
+        {
+            "id": "portfolio",
+            "categoryId": "showcase",
+            "jsonPath": "/data/sections/portfolio.json",
+            "faIcon": "fa-solid fa-folder-open"
+        },
+
+        {
+            "id": "contact",
+            "categoryId": "more",
+            "jsonPath": "/data/sections/contact.json",
+            "faIcon": "fa-solid fa-pen-to-square"
+        }
+    ],
+
+    "categories": [
+        {
+            "id": "home",
+            "faIcon": "fa-solid fa-home",
+            "locales": {
+                "en": {"title": "Home"},
+                "jp": {"title": "Inicio"}
+            }
+        },
+
+        {
+            "id": "background",
+            "faIcon": "fa-solid fa-clock",
+            "locales": {
+                "en": {"title": "History"},
+                "jp": {"title": "Trayectoria"}
+            }
+        },
+
+        {
+            "id": "showcase",
+            "faIcon": "fa-solid fa-images",
+            "locales": {
+                "en": {"title": "Showcase"},
+                "jp": {"title": "Vitrina"}
+            }
+        },
+
+        {
+            "id": "more",
+            "faIcon": "fa-solid fa-plus",
+            "locales": {
+                "en": {"title": "More"},
+                "jp": {"title": "Más"}
+            }
+        }
+    ]
+}
