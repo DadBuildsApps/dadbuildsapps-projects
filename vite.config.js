@@ -10,6 +10,14 @@ export default defineConfig({
     },
   },
   plugins: [react()],
+  build: {
+    rollupOptions: {
+        input: {
+            main: "index.html", 
+            privacyPolicy: "privacy-policy/index.html",
+        },
+    },
+},
   css: {
     preprocessorOptions: {
       scss: {
