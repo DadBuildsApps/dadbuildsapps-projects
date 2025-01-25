@@ -27,7 +27,7 @@
             "faIcon": "fa-solid fa-home",
             "locales": {
                 "en": {"title": "Home"},
-                "jp": {"title": "Inicio"}
+                "jp": {"title": "ホーム"}
             }
         },
 
@@ -36,7 +36,7 @@
             "faIcon": "fa-solid fa-clock",
             "locales": {
                 "en": {"title": "History"},
-                "jp": {"title": "Trayectoria"}
+                "jp": {"title": "ヒストリー"}
             }
         },
 
@@ -44,8 +44,8 @@
             "id": "showcase",
             "faIcon": "fa-solid fa-images",
             "locales": {
-                "en": {"title": "Showcase"},
-                "jp": {"title": "Vitrina"}
+                "en": {"title": "Projects"},
+                "jp": {"title": "プロジェクト"}
             }
         },
 
@@ -54,7 +54,7 @@
             "faIcon": "fa-solid fa-plus",
             "locales": {
                 "en": {"title": "More"},
-                "jp": {"title": "Más"}
+                "jp": {"title": "その他"}
             }
         }
     ]
