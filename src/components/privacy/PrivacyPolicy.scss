@@ -47,3 +47,11 @@ a, a:hover {
     text-decoration: none !important;
     color: unset !important; 
   }
+
+
+  @media (max-width: 768px) {
+    .privacy-policy-card {
+        min-width: 100%; 
+        min-height: 100%; 
+    }
+}
