@@ -15,6 +15,7 @@ export default defineConfig({
         input: {
             main: "index.html", 
             privacyPolicy: "privacy-policy/index.html",
+            termsOfService: "wanowa/terms-of-service/index.html",
         },
     },
 },
