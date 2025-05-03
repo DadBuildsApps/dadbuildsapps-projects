@@ -6,20 +6,7 @@ const PrivacyPolicy = () => {
     const [language, setLanguage] = useState("en");
 
     const renderEnglish = () => (
-        <div className="privacy-policy-card">
-            <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '1rem' }}>
-                <div className="language-selector">
-                    <label htmlFor="language" style={{ color: 'white', marginRight: '0.5rem' }}>Language: </label>
-                    <select
-                        id="language"
-                        value={language}
-                        onChange={(e) => setLanguage(e.target.value)}
-                    >
-                        <option value="en">English</option>
-                        <option value="ja">日本語</option>
-                    </select>
-                </div>
-            </div>
+        <>
             <h1>Privacy Policy</h1>
             <p>
                 Your privacy is important to us. This Privacy Policy explains how we handle, store, and use your information when you use our app or website.
@@ -90,11 +77,11 @@ const PrivacyPolicy = () => {
             <p>
                 If you have any questions or concerns about this Privacy Policy or how we handle your data, please contact us at <a href="mailto:hello@dadbuildsapps.com">hello@dadbuildsapps.com</a>.
             </p>
-        </div>
+        </>
     );
 
     const renderJapanese = () => (
-        <div className="privacy-policy-card">
+        <>
             <h1>プライバシーポリシー</h1>
             <p>
                 当アプリでは、ユーザーのプライバシーを尊重し、個人情報の取扱いについて最大限の注意を払っています。本ポリシーでは、当アプリが収集する情報、その利用方法、およびユーザーの権利について説明します。
@@ -147,12 +134,27 @@ const PrivacyPolicy = () => {
             <p>
                 本ポリシーに関するご質問は、<a href="mailto:hello@dadbuildsapps.com">hello@dadbuildsapps.com</a> までお気軽にお問い合わせください。
             </p>
-        </div>
+        </>
     );
 
     return (
         <div className="privacy-policy">
-            {language === "ja" ? renderJapanese() : renderEnglish()}
+            <div className="privacy-policy-card">
+                <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '1rem' }}>
+                <div className="language-selector">
+                    <label htmlFor="language" style={{ color: 'black', marginRight: '0.5rem' }}>Language: </label>
+                    <select
+                        id="language"
+                        value={language}
+                        onChange={(e) => setLanguage(e.target.value)}
+                    >
+                        <option value="en">English</option>
+                        <option value="ja">日本語</option>
+                    </select>
+                </div>
+            </div>
+                {language === "ja" ? renderJapanese() : renderEnglish()}
+            </div>
         </div>
     );
 };
