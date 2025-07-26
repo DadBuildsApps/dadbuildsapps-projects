@@ -81,6 +81,36 @@
                     
                 },
                 {
+                    "categoryId": "apps",
+                    "icon": {
+                        "img": "images/pictures/wanowa.png",
+                        "fa": "",
+                        "faColors": {"bg": null, "fill": null}
+                    },
+                    "links": [
+                        {"faIcon": "fa-brands fa-apple", "href": "https://apps.apple.com/ca/app/%E5%92%8C%E3%81%AE%E8%BC%AA-%E3%82%AB%E3%83%AB%E3%82%AC%E3%83%AA%E3%83%BC/id6745131764"},
+                        {"faIcon": "fa-brands fa-google-play", "href": "https://google.com"}
+                    ],
+                    "media": {
+                        "screenshots": {
+                            "aspectRatio": null,
+                            "images": []
+                        }
+                    },
+                   "locales": {
+                        "en": {
+                            "title": "Wanowa Calgary",
+                            "text": "A community app built for Japanese people living in Calgary. Wanowa helps you connect with others, discover local Japanese businesses and events, and share helpful information. Built with <b>Flutter</b> and designed with simplicity and warmth in mind.",
+                            "tags": ["Flutter", "Community", "Japan", "Calgary"]
+                        },
+                        "jp": {
+                            "title": "和の輪カルガリー",
+                            "text": "カルガリーに住む日本人のためのコミュニティアプリです。<b>Flutter</b>で構築されており、日本に関わるビジネスやイベント、役立つ情報を共有し、つながりを広げることができます。シンプルで親しみやすいデザインが特徴です。",
+                            "tags": ["Flutter", "コミュニティ", "日本", "カルガリー"]
+                        }
+                    }
+                },
+                {
                     "categoryId": "websites",
                     "icon": {
                         "img": "images/pictures/rocksandgems.png",
