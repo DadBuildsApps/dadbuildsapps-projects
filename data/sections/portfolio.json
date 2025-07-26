@@ -93,7 +93,7 @@
                     ],
                     "media": {
                         "screenshots": {
-                            "aspectRatio": "9:16",
+                            "aspectRatio": null,
                             "images": []
                         }
                     },
