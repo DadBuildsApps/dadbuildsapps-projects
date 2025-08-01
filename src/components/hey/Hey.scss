@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+.hey-wrapper {
+    text-align: center;
+  
+    p {
+      color: white;
+      font-size: 16px;
+      line-height: 1.6;
+    }
+  
+    .app-image {
+      width: 100%;
+      max-width: 280px;
+      border-radius: 12px;
+      margin: 1rem auto;
+    }
+  
+    .download-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      color: #00bfff;
+      font-weight: bold;
+      font-size: 16px;
+      text-decoration: underline;
+    }
+  
+    .approval-code {
+      margin: 1.5rem 0;
+      font-size: 17px;
+      font-weight: 500;
+      color: white;
+  
+      span {
+        display: inline-block;
+        margin-top: 0.3rem;
+        padding: 0.4rem 1rem;
+        background-color: #ffffff20;
+        border-radius: 6px;
+        font-family: monospace;
+        font-size: 18px;
+        font-weight: bold;
+        color: #00bfff;
+      }
+    }
+  
+    .android-note {
+      margin-top: 1rem;
+      font-size: 16px;
+      font-weight: 500;
+      color: #ffeb3b;
+    }
+  }
+  
+  .hey-landing {
+    background-color: #111;
+    min-height: 100vh;
+    padding: 2rem;
+    color: white;
+  }
+  
+  .hey-landing-card {
+    background-color: #1c1c1c;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  }
+  
+  .language-selector select {
+    padding: 0.4rem;
+    border-radius: 4px;
+    border: none;
+    background-color: #333;
+    color: white;
+  }

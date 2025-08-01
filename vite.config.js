@@ -16,6 +16,7 @@ export default defineConfig({
             main: "index.html", 
             privacyPolicy: "privacy-policy/index.html",
             termsOfService: "wanowa/terms-of-service/index.html",
+            hey: "hey/index.html",
         },
     },
 },
