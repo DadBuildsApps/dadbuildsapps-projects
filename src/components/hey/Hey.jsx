@@ -54,7 +54,7 @@ const Hey = () => {
           </div>
           <div className="approval-code">
                 登録時には以下の承認コードが必要です：<br />
-                <span>wanowayyc1</span>
+                <span>daisukiyyc</span>
           </div>
       
           <div className="android-note">
