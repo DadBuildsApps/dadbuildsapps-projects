@@ -32,12 +32,47 @@
   a:hover {
     text-decoration: underline;
   }
+
+  .swiper {
+    overflow-x: auto;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    gap: 12px;
+    padding-bottom: 12px;
+  }
+  .slides {
+    display: flex;
+    gap: 12px;
+  }
+  .slides img {
+    flex: 0 0 80%;
+    max-width: 80%;
+    height: auto;
+    border-radius: 12px;
+    scroll-snap-align: start;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+
+  @media (min-width: 768px) {
+    .slides img {
+      flex: 0 0 30%;
+      max-width: 30%;
+    }
+  }
   
   /* Layout */
   .container {
     max-width: var(--maxw);
     margin-inline: auto;
     padding: clamp(16px, 3vw, 28px);
+  }
+
+  #screenshots img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: var(--shadow);
+    object-fit: cover;
   }
   
   /* Buttons */
@@ -169,6 +204,7 @@
     place-items: center;
     aspect-ratio: 16/10;
   }
+  
   .mock img {
     max-width: 100%;
     height: auto;
