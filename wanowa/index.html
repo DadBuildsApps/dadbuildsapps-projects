@@ -96,6 +96,35 @@
     #screenshots {
       margin-top: 20px;
     }
+    #download.store-buttons {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    #download.store-buttons a {
+      margin: 0 8px;
+    }
+
+    .badges {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 8px;
+      text-align: center;
+      width: 100%;
+    }
+
+    .badges .badge {
+      display: inline-block;
+      margin: 0 4px;
+    }
+
+    .lead {
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
   @media (max-width: 768px) {
@@ -167,10 +196,9 @@
         <div class="badges">
           <span class="badge">完全無料</span>
           <span class="badge">iOS &amp; Android</span>
-          <span class="badge">お店 · イベント · 掲示板</span>
+          <span class="badge">お店 · イベント · 掲示板・マーケットプレース</span>
         </div>
         <div id="download" class="store-buttons">
-          <!-- ✅ 実リンクに更新 -->
           <a class="btn" href="https://apps.apple.com/ca/app/%E5%92%8C%E3%81%AE%E8%BC%AA-%E3%82%AB%E3%83%AB%E3%82%AC%E3%83%AA%E3%83%BC/id6745131764" target="_blank" rel="noopener">App Store</a>
           <a class="btn ghost" href="https://play.google.com/store/apps/details?id=com.dadbuildsapps.wanowacalgary" target="_blank" rel="noopener">Google Play</a>
         </div>
@@ -219,19 +247,34 @@
       <h2 class="section-title">主な機能</h2>
       <div class="grid-3">
         <article class="card">
-          <div class="icon" style="background:var(--green)">店</div>
-          <h3>お店検索</h3>
-          <p class="muted">日本人オーナーのお店やサービスをカテゴリ別に探せます。</p>
+          <div class="icon" style="background:#4CAF50">店</div>
+          <h3>ガイド</h3>
+          <p class="muted">日本人オーナーのお店やサービスに加え、病院・学校などの生活に役立つローカル情報もまとめて検索できます。</p>
         </article>
+        
         <article class="card">
-          <div class="icon" style="background:var(--red)">祭</div>
+          <div class="icon" style="background:#D32F2F">祭</div>
           <h3>イベント情報</h3>
-          <p class="muted">お祭りや交流会などのイベントを見つけて参加できます。</p>
+          <p class="muted">様々なイベントを簡単にチェックできます。
+            また、イベントを開催する方は、ここで自由に告知できます。</p>
         </article>
+        
         <article class="card">
-          <div class="icon" style="background:var(--charcoal)">会</div>
-          <h3>掲示板・チャット</h3>
-          <p class="muted">質問や情報交換、仲間探しなどに使える掲示板・チャット機能。</p>
+          <div class="icon" style="background:#424242">掲</div>
+          <h3>掲示板</h3>
+          <p class="muted">質問、相談、情報共有、おすすめ紹介まで、気軽に投稿してコミュニティとつながれます。</p>
+        </article>
+        
+        <article class="card">
+          <div class="icon" style="background:#8E24AA">売</div>
+          <h3>マーケットプレース</h3>
+          <p class="muted">家具・家電の売買、子ども用品の譲渡、サービス依頼など、生活をもっと便利にする売買スペースです。</p>
+        </article>
+        
+        <article class="card">
+          <div class="icon" style="background:#1976D2">話</div>
+          <h3>チャット</h3>
+          <p class="muted">気になったユーザーと安全に個別チャット。地域の仲間づくりに役立ちます。</p>
         </article>
       </div>
     </div>
