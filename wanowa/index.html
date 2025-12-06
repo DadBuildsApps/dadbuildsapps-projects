@@ -59,6 +59,16 @@
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
     }
 
+    /* --- Hide Scrollbars for Swiper Images --- */
+    .mySwiper::-webkit-scrollbar {
+      display: none;
+    }
+
+    .mySwiper {
+      -ms-overflow-style: none; /* IE/Edge */
+      scrollbar-width: none;    /* Firefox */
+    }
+
     .hero-slider {
       width: 100%;
       max-width: 260px;
