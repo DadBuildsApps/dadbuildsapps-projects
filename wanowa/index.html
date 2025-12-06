@@ -289,6 +289,15 @@
 <link rel="stylesheet"
   href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@400&display=swap" />
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ENBGLGV1XR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-ENBGLGV1XR');
+</script>
 <body>
   <!-- ヘッダー -->
   <header class="nav">
@@ -322,8 +331,20 @@
           <span class="badge">お店 · イベント · 掲示板・マーケットプレース</span>
         </div>
         <div id="download" class="store-buttons">
-          <a class="btn" href="https://apps.apple.com/ca/app/%E5%92%8C%E3%81%AE%E8%BC%AA-%E3%82%AB%E3%83%AB%E3%82%AC%E3%83%AA%E3%83%BC/id6745131764" target="_blank" rel="noopener">App Store</a>
-          <a class="btn ghost" href="https://play.google.com/store/apps/details?id=com.dadbuildsapps.wanowacalgary" target="_blank" rel="noopener">Google Play</a>
+          <a class="btn"
+             href="https://apps.apple.com/ca/app/%E5%92%8C%E3%81%AE%E8%BC%AA-%E3%82%AB%E3%83%AB%E3%82%AC%E3%83%AA%E3%83%BC/id6745131764"
+             target="_blank"
+             rel="noopener"
+             onclick="gtag('event', 'click_appstore', { method: 'landing_page' });">
+             App Store
+          </a>
+          <a class="btn ghost"
+             href="https://play.google.com/store/apps/details?id=com.dadbuildsapps.wanowacalgary"
+             target="_blank"
+             rel="noopener"
+             onclick="gtag('event', 'click_googleplay', { method: 'landing_page' });">
+             Google Play
+          </a>
         </div>
       </div>
       <!-- アプリスクリーンショット -->
@@ -332,14 +353,14 @@
           <h2 class="section-title">画面イメージ</h2>
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="../public/images/pictures/home.png" alt="ホーム画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="../public/images/pictures/event.png" alt="イベント画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="../public/images/pictures/even2.png" alt="イベント詳細画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="../public/images/pictures/directory.png" alt="ガイド画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="../public/images/pictures/directory2.png" alt="ガイド詳細画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="../public/images/pictures/community-menu.PNG" alt="コミュニティ画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="../public/images/pictures/thread.PNG" alt="スレッド画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="../public/images/pictures/market-place.PNG" alt="マーケットプレース" loading="lazy" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/home.png" alt="ホーム画面" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/event.png" alt="イベント画面" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/even2.png" alt="イベント詳細画面" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/directory.png" alt="ガイド画面" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/directory2.png" alt="ガイド詳細画面" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/community-menu.PNG" alt="コミュニティ画面" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/thread.PNG" alt="スレッド画面" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/market-place.PNG" alt="マーケットプレース" /></div>
             </div>
 
             <div class="swiper-button-next"></div>
@@ -460,8 +481,20 @@
       <p class="muted">カルガリーで日本のお店やイベントを見つけ、仲間とつながる第一歩を。</p>
       <div class="store-buttons" style="justify-content:center">
         <!-- ✅ 実リンクに更新（重複でもOK / 使いやすさ優先） -->
-        <a class="btn" href="https://apps.apple.com/ca/app/%E5%92%8C%E3%81%AE%E8%BC%AA-%E3%82%AB%E3%83%AB%E3%82%AC%E3%83%AA%E3%83%BC/id6745131764" target="_blank" rel="noopener">App Store</a>
-        <a class="btn ghost" href="https://play.google.com/store/apps/details?id=com.dadbuildsapps.wanowacalgary" target="_blank" rel="noopener">Google Play</a>
+        <a class="btn"
+           href="https://apps.apple.com/ca/app/%E5%92%8C%E3%81%AE%E8%BC%AA-%E3%82%AB%E3%83%AB%E3%82%AC%E3%83%AA%E3%83%BC/id6745131764"
+           target="_blank"
+           rel="noopener"
+           onclick="gtag('event', 'click_appstore', { method: 'cta_section' });">
+           App Store
+        </a>
+        <a class="btn ghost"
+           href="https://play.google.com/store/apps/details?id=com.dadbuildsapps.wanowacalgary"
+           target="_blank"
+           rel="noopener"
+           onclick="gtag('event', 'click_googleplay', { method: 'cta_section' });">
+           Google Play
+        </a>
       </div>
     </div>
   </section>
@@ -494,6 +527,11 @@
     document.getElementById('y').textContent = new Date().getFullYear();
   </script>
   <script>
+    // Preload all Swiper images to prevent intermittent load failures
+    document.querySelectorAll(".swiper-slide img").forEach(img => {
+      const pre = new Image();
+      pre.src = img.src;
+    });
     const swiper = new Swiper(".mySwiper", {
       slidesPerView: 1,
       centeredSlides: true,
