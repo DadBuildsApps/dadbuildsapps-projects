@@ -332,14 +332,14 @@
           <h2 class="section-title">画面イメージ</h2>
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
-              <div class="swiper-slide"><img src="/assets/home-CnjGfGd0.png" alt="ホーム画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="/assets/event-CXjYf8Tn.png" alt="イベント画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="/assets/even2-B_rJ94kE.png" alt="イベント詳細画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="/assets/directory-20a-ovHo.png" alt="ガイド画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="/assets/directory2-Ba7jrvbB.png" alt="ガイド詳細画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="/assets/community-menu-uGNLNPtM.PNG" alt="コミュニティ画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="/assets/thread-Bw5EJVc7.PNG" alt="スレッド画面" loading="lazy" /></div>
-              <div class="swiper-slide"><img src="/assets/market-place-BdfKVr37.PNG" alt="マーケットプレース" loading="lazy" /></div>
+              <div class="swiper-slide"><img src="/assets/home-CnjGfGd0.png" alt="ホーム画面" /></div>
+              <div class="swiper-slide"><img src="/assets/event-CXjYf8Tn.png" alt="イベント画面" /></div>
+              <div class="swiper-slide"><img src="/assets/even2-B_rJ94kE.png" alt="イベント詳細画面" /></div>
+              <div class="swiper-slide"><img src="/assets/directory-20a-ovHo.png" alt="ガイド画面" /></div>
+              <div class="swiper-slide"><img src="/assets/directory2-Ba7jrvbB.png" alt="ガイド詳細画面" /></div>
+              <div class="swiper-slide"><img src="/assets/community-menu-uGNLNPtM.PNG" alt="コミュニティ画面" /></div>
+              <div class="swiper-slide"><img src="/assets/thread-Bw5EJVc7.PNG" alt="スレッド画面" /></div>
+              <div class="swiper-slide"><img src="/assets/market-place-BdfKVr37.PNG" alt="マーケットプレース" /></div>
             </div>
 
             <div class="swiper-button-next"></div>
@@ -494,6 +494,11 @@
     document.getElementById('y').textContent = new Date().getFullYear();
   </script>
   <script>
+    // Preload all Swiper images to prevent intermittent load failures
+    document.querySelectorAll(".swiper-slide img").forEach(img => {
+      const pre = new Image();
+      pre.src = img.src;
+    });
     const swiper = new Swiper(".mySwiper", {
       slidesPerView: 1,
       centeredSlides: true,
