@@ -175,9 +175,8 @@
     }
   }
     #instagram-link {
-      background: #f7f7f7; /* soft neutral background */
-      padding-top: 40px;
-      padding-bottom: 40px;
+      padding-top: 20px;
+      padding-bottom: 20px;
     }
 
     #instagram-link .section-title {
@@ -230,7 +229,45 @@
         margin-top: 20px;
       }
     }
+
+    /* Instagram Mini Card */
+    .instagram-card {
+      max-width: 360px;
+      margin: 0 auto;
+      padding: 20px 24px;
+      border-radius: 14px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.08);
+      background: #ffffff;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .instagram-card .instagram-icon {
+      font-size: 44px;
+      color: #E1306C;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .instagram-card .ig-text {
+      flex: 1;
+      font-size: 15px;
+      color: #444;
+    }
+
+    .instagram-card .ig-text strong {
+      font-size: 16px;
+      color: #222;
+    }
+
+    .instagram-card .ig-btn {
+      white-space: nowrap;
+    }
   </style>
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@400&display=swap" />
 </head>
 <body>
   <!-- ヘッダー -->
@@ -257,7 +294,7 @@
         <h1><span style="color:var(--red)">和の輪</span> でつながろう</h1>
         <p class="lead">
           カルガリー在住の日本人向けコミュニティアプリ。<br/>
-          日本のお店を探したり、イベントに参加したり、チャットで交流できます。
+          日本のお店やイベント、生活に役立つ情報を手軽にチェックできます。
         </p>
         <div class="badges">
           <span class="badge">完全無料</span>
@@ -272,7 +309,7 @@
       <!-- アプリスクリーンショット -->
       <div class="hero-screenshots">
         <div class="hero-slider">
-          <h2 class="section-title">アプリの画面イメージ</h2>
+          <h2 class="section-title">画面イメージ</h2>
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
               <div class="swiper-slide"><img src="../public/images/pictures/home.png" alt="ホーム画面" loading="lazy" /></div>
@@ -355,7 +392,7 @@
   </section>
 
   <!-- FAQ -->
-  <section id="faq">
+  <section id="faq" class="band">
     <div class="container">
       <h2 class="section-title">よくある質問</h2>
       <details>
@@ -374,17 +411,27 @@
   </section>
 
   <!-- Instagram Link -->
-  <section id="instagram-link" class="band">
-    <div class="container">
-      <h2 class="section-title">Instagram</h2>
-      <p class="muted">最新のお知らせや活動は Instagram でもチェックできます。</p>
-      <p style="margin-top:12px;">
-        <a href="https://www.instagram.com/wanowa_app/" target="_blank" rel="noopener" class="btn ghost">
-          Instagram を見る
-        </a>
-      </p>
+  <section id="instagram-link">
+  <div class="container">
+    <h2 class="section-title">Instagram</h2>
+
+    <div class="instagram-card">
+      <span class="material-symbols-rounded instagram-icon">
+        photo_camera
+      </span>
+
+      <div class="ig-text">
+        <strong>最新情報をチェック</strong><br/>
+        和の輪の更新や活動を Instagram で発信しています。
+      </div>
+
+      <a href="https://www.instagram.com/wanowa_app/" target="_blank" rel="noopener" class="btn ig-btn">
+        開く
+      </a>
     </div>
-  </section>
+
+  </div>
+</section>
 
   <!-- CTA -->
   <section class="container">
