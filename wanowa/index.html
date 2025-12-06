@@ -32,6 +32,110 @@
   <!-- フォント -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <style>
+    .swiper-slide {
+      display: flex;
+      justify-content: center;
+    }
+    /* Prevent Swiper from forcing huge slide widths */
+    .swiper-slide {
+      width: auto !important;
+    }
+
+    /* Limit Swiper container width globally */
+    .hero-screenshots .swiper {
+      width: 100%;
+      max-width: 260px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .swiper-slide img {
+      width: 100%;
+      max-width: 260px; /* Adjusted smaller size */
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .hero-slider {
+      width: 100%;
+      max-width: 260px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    #screenshots h2.section-title {
+      text-align: center;
+    }
+
+    #screenshots {
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+
+  /* --- Navigation Responsive --- */
+  .nav {
+    position: relative;
+  }
+
+  .nav-toggle {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  @media (max-width: 1040px) {
+    .hero-grid {
+      grid-template-columns: 1fr;
+      text-align: center;
+    }
+    #screenshots {
+      margin-top: 20px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .nav-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 60px;
+      right: 16px;
+      background: white;
+      flex-direction: column;
+      padding: 12px;
+      border-radius: 8px;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.15);
+      z-index: 10;
+    }
+
+    .nav-links a {
+      padding: 10px 0;
+      display: block;
+    }
+
+    .nav-links.open {
+      display: flex;
+    }
+
+    .nav-toggle {
+      display: block;
+    }
+
+    .hero-screenshots .swiper {
+      max-width: 330px;
+    }
+  }
+  </style>
 </head>
 <body>
   <!-- ヘッダー -->
@@ -41,6 +145,7 @@
         <span class="brand-logo">和</span>
         <span>和の輪 カルガリー</span>
       </a>
+      <button class="nav-toggle" aria-label="メニューを開く">☰</button>
       <nav class="nav-links" aria-label="ナビゲーション">
         <a href="#about">アプリについて</a>
         <a href="#features">特徴</a>
@@ -70,23 +175,27 @@
           <a class="btn ghost" href="https://play.google.com/store/apps/details?id=com.dadbuildsapps.wanowacalgary" target="_blank" rel="noopener">Google Play</a>
         </div>
       </div>
-    <!-- アプリスクリーンショット -->
-    <section id="screenshots">
-      <div class="container">
-        <h2 class="section-title">アプリの画面イメージ</h2>
-        <div class="swiper">
-          <div class="slides">
-            <img src="../public/images/pictures/home.png" alt="ホーム画面" loading="lazy" />
-            <img src="../public/images/pictures/event.png" alt="イベント画面" loading="lazy" />
-            <img src="../public/images/pictures/even2.png" alt="イベント詳細画面" loading="lazy" />
-            <img src="../public/images/pictures/directory.png" alt="ガイド画面" loading="lazy" />
-            <img src="../public/images/pictures/directory2.png" alt="ガイド詳細画面" loading="lazy" />
-            <img src="../public/images/pictures/community.PNG" alt="コミュニティ画面" loading="lazy" />
-            <img src="../public/images/pictures/thread.PNG" alt="スレッド画面" loading="lazy" />
+      <!-- アプリスクリーンショット -->
+      <div class="hero-screenshots">
+        <div class="hero-slider">
+          <h2 class="section-title">アプリの画面イメージ</h2>
+          <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="../public/images/pictures/home.png" alt="ホーム画面" loading="lazy" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/event.png" alt="イベント画面" loading="lazy" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/even2.png" alt="イベント詳細画面" loading="lazy" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/directory.png" alt="ガイド画面" loading="lazy" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/directory2.png" alt="ガイド詳細画面" loading="lazy" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/community.PNG" alt="コミュニティ画面" loading="lazy" /></div>
+              <div class="swiper-slide"><img src="../public/images/pictures/thread.PNG" alt="スレッド画面" loading="lazy" /></div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </div>
-    </section>
     </div>
   </section>
 
@@ -127,19 +236,6 @@
     </div>
   </section>
 
-  <!-- 口コミ -->
-  <section>
-    <div class="container">
-      <div class="card" style="border-left:6px solid var(--sakura)">
-        <p>
-          「カルガリーに引っ越したばかりですが、和の輪のおかげで<br/>
-          日本のお店をすぐに見つけて、友達もできました！」<br/>
-          <strong>– 利用者の声</strong>
-        </p>
-      </div>
-    </div>
-  </section>
-
   <!-- FAQ -->
   <section id="faq">
     <div class="container">
@@ -159,22 +255,16 @@
     </div>
   </section>
 
-  <!-- ✅ Instagram フィード（ウィジェットIDを差し替え） -->
-  <section id="instagram" class="band">
+  <!-- Instagram Link -->
+  <section id="instagram-link" class="band">
     <div class="container">
-      <h2 class="section-title">Instagram フィード</h2>
-      <p class="muted">最新の活動やお知らせを Instagram でチェック！</p>
-
-<!-- LightWidget WIDGET -->
-<!-- LightWidget -->
-      <script src="http://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-      <iframe
-        src="http://lightwidget.com/widgets/2c6c64d33002579782b259ab5620f0af.html"
-        scrolling="no"
-        allowtransparency="true"
-        class="lightwidget-widget"
-        style="width:100%;border:0;overflow:hidden;">
-      </iframe>
+      <h2 class="section-title">Instagram</h2>
+      <p class="muted">最新のお知らせや活動は Instagram でもチェックできます。</p>
+      <p style="margin-top:12px;">
+        <a href="https://www.instagram.com/wanowa_app/" target="_blank" rel="noopener" class="btn ghost">
+          Instagram を見る
+        </a>
+      </p>
     </div>
   </section>
 
@@ -217,5 +307,26 @@
   <script>
     document.getElementById('y').textContent = new Date().getFullYear();
   </script>
+  <script>
+    const swiper = new Swiper(".mySwiper", {
+      slidesPerView: 1,
+      centeredSlides: true,
+      spaceBetween: 40,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+      }
+    });
+  </script>
+<script>
+  document.querySelector('.nav-toggle').addEventListener('click', () => {
+    document.querySelector('.nav-links').classList.toggle('open');
+  });
+</script>
 </body>
 </html>
