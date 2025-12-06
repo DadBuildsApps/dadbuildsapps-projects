@@ -191,6 +191,45 @@
     section.container .cta {
       margin-top: 40px;
     }
+
+    /* About section layout */
+    .about-flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+    }
+
+    .about-text {
+      flex: 1;
+    }
+
+    .about-logo-container {
+      flex: 0 0 auto;
+    }
+
+    .about-logo-animate {
+      width: 220px;
+      opacity: 0;
+      transform: translateY(-20px);
+      transition: opacity 1.2s ease, transform 1.2s ease;
+    }
+
+    .about-logo-animate.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 900px) {
+      .about-flex {
+        flex-direction: column;
+        text-align: center;
+      }
+      .about-logo-animate {
+        width: 160px;
+        margin-top: 20px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -257,14 +296,22 @@
 
   <!-- アプリについて -->
   <section id="about" class="band">
-    <div class="container">
-      <h2 class="section-title">和の輪とは？</h2>
-      <p class="muted">
-        和の輪 カルガリーは、カルガリーに住む日本人や日本に興味のある方が
-        気軽につながれる無料アプリです。<br/>
-        日本人オーナーのお店、イベント情報、掲示板やチャットでの交流を通じて、
-        新生活や日常をもっと安心・便利にします。
-      </p>
+    <div class="container about-flex">
+      <div class="about-text">
+        <h2 class="section-title">和の輪とは？</h2>
+        <p class="muted">
+          和の輪 カルガリーは、カルガリーに住む日本人や日本に興味のある方が
+          気軽につながれる無料アプリです。<br/>
+          日本人オーナーのお店、イベント情報、掲示板やチャットでの交流を通じて、
+          新生活や日常をもっと安心・便利にします。
+        </p>
+      </div>
+
+      <div class="about-logo-container">
+        <img src="../public/images/pictures/wanowa-big-logo.png"
+             alt="Wanowa Logo"
+             class="about-logo-animate" />
+      </div>
     </div>
   </section>
 
@@ -394,11 +441,28 @@
         prevEl: ".swiper-button-prev"
       }
     });
-  </script>
-<script>
-  document.querySelector('.nav-toggle').addEventListener('click', () => {
+
+    document.querySelector('.nav-toggle').addEventListener('click', () => {
     document.querySelector('.nav-links').classList.toggle('open');
   });
-</script>
+    // About section logo fade-in animation
+    const aboutLogo = document.querySelector(".about-logo-animate");
+
+  if (aboutLogo) {
+    const observer2 = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          aboutLogo.classList.add("show");
+          observer2.disconnect();
+        }
+      });
+    }, {
+      threshold: 0.4,
+      rootMargin: "0px 0px -20% 0px"
+    });
+
+    observer2.observe(aboutLogo);
+  }
+  </script>
 </body>
 </html>
