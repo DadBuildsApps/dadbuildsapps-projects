@@ -2,6 +2,7 @@
 <html lang="ja">
 <head>
   <!-- 基本設定 -->
+  <link rel="icon" type="image/png" href="../public/images/pictures/wanowa.png" />
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>和の輪 カルガリー – カルガリーの日本人向けコミュニティアプリ</title>
@@ -57,6 +58,16 @@
       height: auto;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    /* --- Hide Scrollbars for Swiper Images --- */
+    .mySwiper::-webkit-scrollbar {
+      display: none;
+    }
+
+    .mySwiper {
+      -ms-overflow-style: none; /* IE/Edge */
+      scrollbar-width: none;    /* Firefox */
     }
 
     .hero-slider {
@@ -264,6 +275,15 @@
 
     .instagram-card .ig-btn {
       white-space: nowrap;
+    }
+    /* --- GitHub Pages Fix: Force mobile menu to stay closed until toggled --- */
+    @media screen and (max-width: 768px) {
+      .nav-links {
+        display: none !important;
+      }
+      .nav-links.open {
+        display: flex !important;
+      }
     }
   </style>
 <link rel="stylesheet"
