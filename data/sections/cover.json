@@ -36,8 +36,8 @@
                     }
                 },
                 {
-                    "value": "hello@dadbuildsapps.com",
-                    "links": [{"href": "mailto:hello@dadbuildsapps.com"}],
+                    "value": "dadbuildsapps@gmail.com",
+                    "links": [{"href": "mailto:dadbuildsapps@gmail.com"}],
                     "icon": {
                         "img": null,
                         "fa": "fa-solid fa-envelope",
