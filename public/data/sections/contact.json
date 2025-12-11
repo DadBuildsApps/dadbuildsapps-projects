@@ -34,9 +34,9 @@
             },
             "items": [
                 {
-                    "value": "hello@dadbuildsapps.com",
+                    "value": "dadbuildsapps@gmail.com",
                     "links": [
-                        {"href": "mailto:hello@dadbuildsapps.com"}
+                        {"href": "mailto:dadbuildsapps@gmail.com"}
                     ],
                     "icon": {
                         "img": null,

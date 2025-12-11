@@ -82,7 +82,7 @@ const PrivacyPolicy = () => {
       </ul>
       <p>
         Contact:{" "}
-        <a href="mailto:hello@dadbuildsapps.com">hello@dadbuildsapps.com</a>
+        <a href="mailto:dadbuildsapps@gmail.com">dadbuildsapps@gmail.com</a>
       </p>
 
       <h2 id="children">Children’s Privacy</h2>
@@ -119,7 +119,7 @@ const PrivacyPolicy = () => {
         <li>
           <b>Report:</b> If you see content that may violate these standards,
           please email{" "}
-          <a href="mailto:hello@dadbuildsapps.com">hello@dadbuildsapps.com</a>{" "}
+          <a href="mailto:dadbuildsapps@gmail.com">dadbuildsapps@gmail.com</a>{" "}
           with details and links/screenshots.
         </li>
         <li>
@@ -156,7 +156,7 @@ const PrivacyPolicy = () => {
       <h2 id="contact">Contact</h2>
       <p>
         Email:{" "}
-        <a href="mailto:hello@dadbuildsapps.com">hello@dadbuildsapps.com</a>
+        <a href="mailto:dadbuildsapps@gmail.com">dadbuildsapps@gmail.com</a>
       </p>
     </>
   );
@@ -231,7 +231,7 @@ const PrivacyPolicy = () => {
         <li>同意に基づく処理の同意撤回</li>
       </ul>
       <p>
-        連絡先：<a href="mailto:hello@dadbuildsapps.com">hello@dadbuildsapps.com</a>
+        連絡先：<a href="mailto:dadbuildsapps@gmail.com">dadbuildsapps@gmail.com</a>
       </p>
 
       <h2 id="jp-children">13歳未満のユーザーについて</h2>
@@ -264,7 +264,7 @@ const PrivacyPolicy = () => {
         <li>
           <b>通報：</b> 違反の疑いがある内容を見つけた場合は、詳細（URLやスク
           リーンショット等）を添えて{" "}
-          <a href="mailto:hello@dadbuildsapps.com">hello@dadbuildsapps.com</a>{" "}
+          <a href="mailto:dadbuildsapps@gmail.com">dadbuildsapps@gmail.com</a>{" "}
           までお知らせください。
         </li>
         <li>
@@ -300,7 +300,7 @@ const PrivacyPolicy = () => {
 
       <h2 id="jp-contact">お問い合わせ</h2>
       <p>
-        メール：<a href="mailto:hello@dadbuildsapps.com">hello@dadbuildsapps.com</a>
+        メール：<a href="mailto:dadbuildsapps@gmail.com">dadbuildsapps@gmail.com</a>
       </p>
     </>
   );

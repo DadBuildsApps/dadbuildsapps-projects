@@ -17,7 +17,7 @@ const Hey = () => {
                 Check out what I’m building 👉 <a href="https://dadbuildsapps.com" target="_blank" rel="noreferrer">dadbuildsapps.com</a>
             </p>
             <p>
-                Contact: <a href="mailto:hello@dadbuildsapps.com">hello@dadbuildsapps.com</a>
+                Contact: <a href="mailto:dadbuildsapps@gmail.com">dadbuildsapps@gmail.com</a>
             </p>
         </>
     );
@@ -70,7 +70,7 @@ const Hey = () => {
           </p>
           <p>
             お問い合わせ ✉️{" "}
-            <a href="mailto:hello@dadbuildsapps.com">hello@dadbuildsapps.com</a>
+            <a href="mailto:dadbuildsapps@gmail.com">dadbuildsapps@gmail.com</a>
           </p>
         </div>
       );

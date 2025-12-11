@@ -108,7 +108,7 @@ const TermsOfService = () => {
 
                 <h2>お問い合わせ</h2>
                 <p>
-                    本規約に関するお問い合わせは、<a href="mailto:hello@dadbuildsapps.com">hello@dadbuildsapps.com</a> までご連絡ください。
+                    本規約に関するお問い合わせは、<a href="mailto:dadbuildsapps@gmail.com">dadbuildsapps@gmail.com</a> までご連絡ください。
                 </p>
             </div>
         </div>
