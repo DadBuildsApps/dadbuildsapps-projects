@@ -1,7 +1,7 @@
 /** ----------- FONTS ------------ **/
 $font-family-base: 'Lato', sans-serif;
-$headings-font-family: 'Orbitron', sans-serif;
-$custom-subheadings-font-family: 'Oxygen', sans-serif;
+$headings-font-family: 'Oxygen', 'Noto Sans JP', sans-serif;
+$custom-subheadings-font-family: 'Oxygen', 'Noto Sans JP', sans-serif;
 
 /** --------- Z-INDEXES ---------- **/
 $z-index-section-inactive: 10;
@@ -20,7 +20,7 @@ $sidebar-width: 280px;
 $sidebar-shrink-width: 120px;
 $nav-tabs-height: 55px;
 $nav-tabs-chrome-offset: 20px;
-$standard-border-radius: 10px;
+$standard-border-radius: 18px;
 $layout-blocks-spacing: 0.5rem;
 $sidebar-min-breakpoint: md;
 
@@ -67,9 +67,9 @@ $loader-background-color: #111111;
     --theme-bg: url('/images/css/bg-dark.png');
     --theme-bg-color: #1C1C1C;
     --theme-section-background: #1A1A1A;
-    --theme-section-background-opacity: rgba(26, 26, 26, 0.86);
+    --theme-section-background-opacity: rgba(22, 24, 23, 0.92);
     --theme-tag-color: #181818;
-    --theme-box-shadow: none;
+    --theme-box-shadow: 0 18px 60px rgba(0, 0, 0, 0.22);
 
     --theme-nav-background: #1A1A1A;
     --theme-nav-background-disabled: #181818;

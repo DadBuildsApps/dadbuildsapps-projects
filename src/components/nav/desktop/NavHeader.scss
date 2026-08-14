@@ -8,17 +8,18 @@ header.nav-header {
     flex-direction: column;
 
     .img-view-avatar {
-        border: 6px solid var(--theme-nav-light);
+        border: 4px solid var(--theme-nav-light);
         border-radius: calc($standard-border-radius * 2);
 
-        width: 140px;
-        height: 140px;
+        width: 112px;
+        height: 112px;
+        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
     }
 
     .status-badge {
         position: absolute;
-        margin-left: 120px;
-        margin-top: 50px;
+        margin-left: 94px;
+        margin-top: 38px;
     }
 
     .name {
@@ -30,9 +31,9 @@ header.nav-header {
 
     .role {
         color: var(--theme-nav-secondary);
-        font-weight: bold;
+        font-weight: 400;
         font-size: 0.95rem;
-        opacity: 0.6;
+        opacity: 0.72;
     }
 
     .name, .role {
