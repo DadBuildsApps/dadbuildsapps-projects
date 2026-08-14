@@ -69,7 +69,7 @@
                     "locales": {
                         "en": {
                             "title": "All-In-One Productivity Manager",
-                            "text": "A versatile productivity app built with <b>Flutter</b>, designed to help you stay organized, manage your tasks, and improve focus. It offers a clean, intuitive interface with tools for <b>time management</b>, <b>task tracking</b>, and <b>focus improvement</b>.",
+                            "text": "A productivity app built with <b>Flutter</b> that brings tasks, time management, and focus together in one place. It is designed around a clean, straightforward experience that feels easy to use every day.",
                             "tags": ["Flutter", "Productivity", "Task Management"]
                         },
                         "jp": {
@@ -100,12 +100,12 @@
                    "locales": {
                         "en": {
                             "title": "Wanowa Calgary",
-                            "text": "A community app built for Japanese people living in Calgary. Wanowa helps you connect with others, discover local Japanese businesses and events, and share helpful information. Built with <b>Flutter</b> and designed with simplicity and warmth in mind.",
+                            "text": "A community app for Japanese people living in Calgary. It helps people discover local businesses, events, and useful information while connecting with others in the community. Built with <b>Flutter</b> to feel simple, warm, and welcoming.",
                             "tags": ["Flutter", "Community", "Japan", "Calgary"]
                         },
                         "jp": {
                             "title": "和の輪カルガリー",
-                            "text": "カルガリーで暮らす日本人のためのコミュニティアプリです。現地のお店やイベント、暮らしに役立つ情報を見つけたり、地域の人とつながったりできます。<b>Flutter</b>で、親しみやすくシンプルに作りました。<br><small>お試し承認コード：hellowanowa</small>",
+                            "text": "カルガリーで暮らす日本人のためのコミュニティアプリです。現地のお店やイベント、暮らしに役立つ情報を見つけたり、地域の人とつながったりできます。<b>Flutter</b>で、親しみやすくシンプルに作りました。",
                             "tags": ["Flutter", "コミュニティ", "日本", "カルガリー"]
                         }
                     }
@@ -129,42 +129,13 @@
                     "locales": {
                         "en": {
                             "title": "Kelowna Rocks & Gems",
-                            "text": "An e-commerce website designed to support a local small business.",
+                            "text": "An e-commerce website created for a community-focused small business. The experience is designed to showcase its products clearly and help customers shop with confidence.",
                             "tags": ["WordPress", "Design", "E-commerce"]
                         },
                         "jp": {
                             "title": "Kelowna Rocks & Gems",
                             "text": "地域に根ざした小さなお店のために制作したECサイトです。商品の魅力が伝わり、安心して買い物できる導線を意識しました。",
                             "tags": ["WordPress", "デザイン", "Eコマース"]
-                        }
-                    }
-                },
-                {
-                    "categoryId": "websites",
-                    "icon": {
-                        "img": "images/pictures/flame.png",
-                        "fa": "",
-                        "faColors": {"bg": null, "fill": null}
-                    },
-                    "links": [
-                        {"faIcon": "fa-solid fa-link", "href": "https://st-flame.com/"}
-                    ],
-                    "media": {
-                        "screenshots": {
-                            "aspectRatio": null,
-                            "images": []
-                        }
-                    },
-                    "locales": {
-                        "en": {
-                            "title": "Flame",
-                            "text": "A website created for a small business in Japan, featuring an integrated booking system for its core services.",
-                            "tags": ["WordPress", "Design", "Booking"]
-                        },
-                        "jp": {
-                            "title": "Flame",
-                            "text": "日本のスモールビジネス向けに制作したウェブサイトです。サービス紹介から予約まで、迷わず進める予約システムを組み込みました。",
-                            "tags": ["WordPress", "デザイン", "予約システム"]
                         }
                     }
                 }

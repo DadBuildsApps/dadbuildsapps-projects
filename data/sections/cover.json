@@ -22,7 +22,7 @@
                 "format": "inline"
             },
             "locales": {
-                "en": {"title": "Contact Details"},
+                "en": {"title": "Connect"},
                 "jp": {"title": "つながる"}
             },
             "items": [
@@ -60,22 +60,22 @@
             "component": "ArticleInfoBlock",
             "config": {},
             "locales": {
-                "en": {"title": "**A little bit** about me..."},
+                "en": {"title": "About **DadBuildsApps**"},
                 "jp": {"title": "**DadBuildsApps** について"}
             },
             "items": [
                 {
                     "icon": {
-                        "img": "images/pictures/aboutme.png",
+                        "img": null,
                         "fa": null,
                         "faColors": {"bg": null, "fill": null}
                     },
                     "locales": {
                         "en": {
-                            "text": "<p>I’m a **full stack developer** based in **Calgary** (originally from **Japan**!) and your friendly neighborhood indie dad developer.</p> <p>When I’m not at work, you’ll find me cracking dad jokes, working on **mobile apps** as a hobby, chasing **big ideas**, or connecting with amazing people like  you!</p> <p>If you’re curious about what I do—or just want to say hi—don’t hesitate to reach out. <b>**Let’s connect!**</b></p>"
+                            "text": "<p>I’m a **full stack developer** working in Canada. Outside of work, I value time with my two kids while also developing **apps** independently.</p><p>I enjoy exploring new ideas and bringing them to life. I also share the things I build and the journey behind them on X.</p><p>Whether you have feedback on an app or just want to talk about development, I’d love to hear from you. **Feel free to say hello!**</p>"
                         },
                         "jp": {
-                            "text": "<p>カナダ・カルガリーで働く**フルスタックエンジニア**です。仕事のかたわら、息子との時間を大切にしながら、暮らしにちょっと役立つ**モバイルアプリ**を作っています。</p><p>親父ギャグと新しいアイデアが大好物。作ったものや開発の過程は、Xでも少しずつ発信しています。</p><p>アプリの感想でも、開発の話でも大歓迎です。**気軽に声をかけてください！**</p>"
+                            "text": "<p>カナダで働く**フルスタックエンジニア**です。仕事のかたわら、子供たちとの時間を大切にしながら、個人でも**アプリ**を開発しています。</p><p>新しいアイデアを考え、形にしていくことが好きです。作ったものや開発の過程は、Xでも少しずつ発信しています。</p><p>アプリの感想でも、開発の話でも大歓迎です。**気軽に声をかけてください！**</p>"
                         }
                     }
                 }
@@ -88,7 +88,7 @@
                 "format": "grid"
             },
             "locales": {
-                "en": {"title": "Personal **interests**"},
+                "en": {"title": "Things I **enjoy and explore**"},
                 "jp": {"title": "好きなこと・**気になること**"}
             },
             "items": [
