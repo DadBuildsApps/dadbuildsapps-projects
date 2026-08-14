@@ -17,7 +17,7 @@
 
         "locales": {
             "en": {"role": "Full Stack/Mobile Developer"},
-            "jp": {"role": "フルスタック/モバイル エンジニア"}
+            "jp": {"role": "パパ × アプリ開発者"}
         }
     },
 
@@ -27,7 +27,7 @@
 
         "locales": {
             "en": {"message": "Let's connect!"},
-            "jp": {"message": "ぜひ連絡してください！"}
+            "jp": {"message": "気軽につながってください！"}
         }
     },
 

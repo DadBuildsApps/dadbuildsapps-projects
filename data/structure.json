@@ -11,13 +11,6 @@
             "categoryId": "showcase",
             "jsonPath": "/data/sections/portfolio.json",
             "faIcon": "fa-solid fa-folder-open"
-        },
-
-        {
-            "id": "contact",
-            "categoryId": "more",
-            "jsonPath": "/data/sections/contact.json",
-            "faIcon": "fa-solid fa-pen-to-square"
         }
     ],
 
@@ -46,15 +39,6 @@
             "locales": {
                 "en": {"title": "Projects"},
                 "jp": {"title": "プロジェクト"}
-            }
-        },
-
-        {
-            "id": "more",
-            "faIcon": "fa-solid fa-plus",
-            "locales": {
-                "en": {"title": "More"},
-                "jp": {"title": "その他"}
             }
         }
     ]
