@@ -25,3 +25,5 @@ dist/*
 *.sw?
 
 settings.json
+
+.env
