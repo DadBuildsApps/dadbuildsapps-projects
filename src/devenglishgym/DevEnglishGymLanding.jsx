@@ -306,7 +306,7 @@ export default function DevEnglishGymLanding() {
               {status.type === "loading" ? "登録しています…" : "ベータ版の案内を受け取る"}
             </button>
             <p className={`form-status form-status--${status.type}`} aria-live="polite" role="status">{status.message}</p>
-            <p className="consent-note">登録により、ベータ版の案内メールを受け取ることに同意したものとします。登録情報は案内以外には使用しません。<a href="/privacy-policy/">プライバシーポリシー</a></p>
+            <p className="consent-note">登録により、ベータ版の案内メールを受け取ることに同意したものとします。個人情報の取り扱いは<a href="/devenglishgym/privacy-policy/">プライバシーポリシー</a>をご確認ください。</p>
           </form>
         </section>
       </main>

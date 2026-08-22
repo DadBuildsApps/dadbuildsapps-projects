@@ -19,6 +19,7 @@ export default defineConfig({
             termsOfService: "wanowa/terms-of-service/index.html",
             hey: "hey/index.html",
             devEnglishGym: "devenglishgym/index.html",
+            devEnglishGymPrivacy: "devenglishgym/privacy-policy/index.html",
         },
     },
 },
